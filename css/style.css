@@ -1,0 +1,66 @@
+/*Подключение шрифтов*/
+@font-face {
+  font-family: 'Oleo Script';
+  src: url('../fonts/OleoScriptBold.woff') format('woff'),
+  url('../fonts/OleoScriptBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Oleo Script';
+  src: url('../fonts/OleoScriptRegular.woff') format('woff'),
+  url('../fonts/OleoScriptRegular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Oxygen Mono';
+  src: url('../fonts/OxygenMonoRegular.woff') format('woff'),
+  url('../fonts/OxygenMonoRegular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*Общие стили*/
+html {
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  background-image: url(../img/page_bg.png);
+  background-repeat: repeat;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #666;
+  background-color: #fff;
+  width: 970px;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  margin: 60px auto 84px;
+  padding-top: 30px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+/*header*/
+
+/*.block*/
+
+/*.news*/
